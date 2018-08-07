@@ -1,6 +1,8 @@
+@import 'animation.css';
 @import 'members.css';
 @import 'nav.css';
 @import 'events.css';
+@import 'admin.css';
 
 body {
     height: 100px;

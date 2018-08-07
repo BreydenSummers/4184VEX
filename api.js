@@ -12,6 +12,7 @@ eventPromise
                 console.log(element)
                 var renderdiv = document.createElement('div')
                 renderdiv.classList.add('renderdiv');
+                renderdiv.classList.add('slideLeft');
                 var renderH = document.createElement('H1')
                 renderH.classList.add('renderH');
                 renderH.innerHTML = element.name;
