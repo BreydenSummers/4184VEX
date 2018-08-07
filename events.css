@@ -9,13 +9,18 @@
     border-radius: 10px;
 }
 .renderH {
-    padding: 10px;
+    padding-top: 10px;
+   padding-left: 10px;
     font-size: 20px;
 }
 .renderloc{
-    padding: 10px;
+   padding-left: 10px;
 }
 .renderaddress{
-    padding: 10px;
+   padding-left: 10px;
 
+}
+.renderdatefull {
+   padding-left: 10px;
+   padding-bottom: 10px;
 }

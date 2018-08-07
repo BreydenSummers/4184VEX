@@ -21,10 +21,19 @@ eventPromise
                 var renderaddress = document.createElement('p')
                 renderaddress.classList.add('renderaddress');
                 renderaddress.innerHTML = element.loc_address1;
+                var renderdatefull = document.createElement('p')
+                renderdatefull.classList.add('renderdatefull');
+                var renderdate = document.createElement('p')
+                renderdate.classList.add('renderdate');
+                renderdate.innerHTML = element.start;
+                renderdate = renderdate.innerHTML.toString().slice(0,10);
+                renderdate = document.createTextNode(renderdate);
+                renderdatefull.appendChild(renderdate);
                 document.getElementById('content-events').appendChild(renderdiv);
                 renderdiv.appendChild(renderH);
                 renderdiv.appendChild(renderloc);
                 renderdiv.appendChild(renderaddress);
+                renderdiv.appendChild(renderdatefull);
             }
         });
     });
