@@ -1,0 +1,21 @@
+.content-events{
+    overflow: hidden;
+}
+
+
+.renderdiv {
+    background-image: linear-gradient(to right top, #ee3e3e, #c32e31, #992024, #711218, #4c0508);
+    color: white;
+    border-radius: 10px;
+}
+.renderH {
+    padding: 10px;
+    font-size: 20px;
+}
+.renderloc{
+    padding: 10px;
+}
+.renderaddress{
+    padding: 10px;
+
+}

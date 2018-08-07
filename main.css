@@ -1,0 +1,13 @@
+@import 'members.css';
+@import 'nav.css';
+@import 'events.css';
+
+body {
+    height: 100px;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    align-items: center;
+    
+  }
