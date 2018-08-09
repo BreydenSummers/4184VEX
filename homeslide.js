@@ -1,5 +1,5 @@
 
-var slides = 2;
+var slides = 3;
 renderslides(slides);
 function renderslides(slides) {
     if(slides == 0){
