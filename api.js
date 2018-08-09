@@ -9,7 +9,6 @@ eventPromise
         myJson.result.forEach(element => {
 
             if (element.loc_region === 'Utah' & element.season === 'Turning Point') {
-                console.log(element)
                 var renderdiv = document.createElement('div')
                 renderdiv.classList.add('renderdiv');
                 renderdiv.classList.add('slideLeft');
